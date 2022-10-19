@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <style>
+            .hi{
+                background-color: lightblue;
+            }
+            .hi:hover{
+                transform:scale(1.2);
+                background-color: teal;
+            }
+        </style>
+    </head>
+    <body style="background-image:url(images/preg.JPG);background-size: cover;">
+            <center>
+            <div style="height:400px;width:400px;align-content: center;padding-top:10px;border-radius: 50px;border:double skyblue 10px;;">
+                <h3>LOGIN FORM</h3>
+<form action="check.php"  method="get">
+<table style="background-color:skyblue;border-radius:10px;height: 150px;width:275px;" border="1" align="center"><tr><td>
+Username</td><td><input type="text"  name="name"></td></tr>
+<tr><td>Password</td><td><input type="text"  name="pwd"></td></tr>
+<tr><td><input class="hi" type="submit"  name="submit" style="border-radius:20px;"></td>
+<td><input class="hi" type="reset"  name="reset" style="border-radius:20px;"></td></tr>
+</table>
+<br><br>
+<b>click REGISTER button below. If you are not having an account...</b><br><br>
+<button class="hi" style="padding-block: 10px;border-radius: 25px;margin-top: 30px;margin-right: 200px;"><a href="register.html">REGISTER</a></button>
+</form>
+</div>
+</center>
+</body>
+</html>

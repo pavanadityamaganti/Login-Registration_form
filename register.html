@@ -1,0 +1,73 @@
+<html>
+    <body>
+        <style>
+            .hi{
+                background-color:lightslategray;
+            }
+            .hi:hover{
+                transform:scale(1.2);
+                background-color: rosybrown;
+            }
+        </style>
+    </body>
+<body style="background-image:url(images/bim.jpg);background-size: cover;"><center>
+<form name="f1" method="get" action="insert.php">
+<br>
+<br>
+<br>
+<table style="border-radius: 30px;height:400px;width:600px;border-color: black;" border=2>
+<tr><font size=15 face="Comic Sans MS">
+<th colspan=2 style="border-radius: 20px;">REGISTER FORM</th>
+</font></tr>
+
+<tr><td>ENTER NAME</td>
+    <td><input type="text" name="t1" size=25></td>
+</tr>
+<tr><td>GENDER</td>
+    <td><input type=radio name="r1" value="male">male
+        <input type=radio name="r1" value="female">female</td>
+</tr>
+<tr><td>TECH SKILLS</td>
+    <td><input type="checkbox" name="cb1[]" value="html">HTML
+        <input type="checkbox" name="cb1[]" value="xml">XML
+        <input type="checkbox" name="cb1[]" value="php">PHP<br>
+        <input type="checkbox" name="cb1[]" value="perl">PERL
+        <input type="checkbox" name="cb1[]" value="ruby">RUBY
+        <input type="checkbox" name="cb1[]" value="ajax">AJAX
+    </td>
+</tr>
+
+<tr><td>SELECT BRANCH</td>
+    <td><select name="s1">
+        <option>CSE</option>
+        <option>IT</option>
+        <option>ECE</option>
+        <option>EEE</option>
+        <option>MECH</option>
+        <option>CIVIL</option>
+        <option>PT</option>
+        </select></td>
+</tr>
+<tr><td>PASSWORD</td>
+    <td><input type="text" name="p1" size=25></td>
+</tr>
+
+
+
+
+
+
+
+<tr><td style="border-radius: 20px;" align=center><input class="hi" type="submit" value="Submit" style="border-radius:20px;"></td>
+    <td style="border-radius: 20px;" align=center><input class="hi" type="reset" value="Reset" style="border-radius:20px;"></td>
+
+</tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+</form>
+
+</body>
+</html>
